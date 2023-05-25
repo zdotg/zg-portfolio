@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* button styles */
+
+.button-gradient {
+  background: rgb(182,34,195);
+  background: linear-gradient(75deg, rgb(192, 55, 205) 0%, rgba(253,163,45,1) 100%);
+  border: none
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-gradient {
+  background-image: linear-gradient(75deg, rgba(253, 163, 45, 1) 0%, rgb(241, 105, 253)100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button {
+  background: #fcfcf7;
+  transition: color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  color: #fcfcf7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* text styles */
+
+.main-text {
+  color: #fcfcf7;
+}
+
+/* misc */
+
+.custom-shape {
+  position: absolute;
+  top: 40px;
+  left: 820px;
+  width: 275px;
+  height: 175px;
+  background-color: #f4f4f4;
+  transform: rotate(-30deg);
+  border-radius: 45% 95% 90% 60%;
+  z-index: 1;
+  background-image: linear-gradient(75deg, rgba(182, 34, 195, 1) 0%, rgba(253, 163, 45, 1) 100%);
+}
+
+.custom-shape-b {
+  position: absolute;
+  top: 150px;
+  left: 175px;
+  width: 350px;
+  height: 185px;
+  background-color: #f4f4f4;
+  transform: rotate(-30deg);
+  border-radius: 305% 4% 90% 100%;
+  z-index: 1;
+  background-image: linear-gradient(75deg, rgba(182, 34, 195, 1) 0%, rgba(253, 163, 45, 1) 100%);
 }
