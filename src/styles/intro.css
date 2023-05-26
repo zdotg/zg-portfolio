@@ -1,8 +1,12 @@
 
 .intro-card {
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding: 10rem;
     border-radius: 0;
     border: none;
     background-color: #8e6e92;
+}
+
+.img-border-intro {
+    border-bottom: 1px solid #fcfcf785;
+    border-right: 1px dashed #fcfcf785;
 }

@@ -4,21 +4,26 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-sm px-5 nav-styles pb-5">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm px-5 nav-styles ">
+      <div class="container-sm">
         <a href="#" class="navbar-brand ">
-          <div class="display-6 navbar-text main-text">Zach Gallman</div>
+          <div class="display-6 navbar-text main-text">
+            Zach <span class="text-gradient">Gallman</span>;
+          </div>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#NavBar"
+          aria-controls="NavBar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="NavBar">
-          <ul class="navbar-nav mx-5 ">
+          <ul class="navbar-nav mx-auto justify-content-center pt-2">
             <li class="nav-item active">
               <a class="nav-link main-text" href="#About">
                 About Me
@@ -37,9 +42,11 @@ const NavBar = () => {
           </ul>
         </div>
         {/* Figure out how to make the contact me button collapse at a certain breakpoint. Then figure out how to make a contact me option appear when the navbar collapses at small viewport sizes */}
-        <button type="button" class="btn button ">
-          Contact Me
-        </button>
+        <div class="d-none d-sm-block">
+          <button type="button" class="btn button ">
+            <span class="text-gradient">Contact Me</span>
+          </button>
+        </div>
       </div>
     </nav>
   );
