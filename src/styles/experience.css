@@ -1,0 +1,12 @@
+.experience-card {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    border-radius: 0;
+    border: none;
+    background-color: #8e6e92;
+}
+
+.border-style-one {
+    width: 45px;
+    border-bottom: 1px solid #fcfcf7;
+}

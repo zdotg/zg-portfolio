@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/skillsAndCert.css";
+import "../styles/experience.css";
 import "../App.css";
 
-const SkillsAndCerts = () => {
+const Experience = () => {
   return (
-    <div class="card mx-auto pt-5 pb-5 skills-card">
+    <div class="card mx-auto pt-5 pb-5 experience-card">
       <div class="card-body d-flex align-items-center">
         <div class="col">
           <div class="pb-2">
@@ -49,4 +49,4 @@ const SkillsAndCerts = () => {
   );
 };
 
-export default SkillsAndCerts;
+export default Experience;
