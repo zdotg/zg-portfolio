@@ -1,22 +1,22 @@
 import React from "react";
-import "../styles/skillsAndCerts.css";
+import "../styles/skills.css";
 import "../App.css";
 
-const SkillsAndCerts = () => {
+const Skills = () => {
   const skills = [
     { name: "Front-End Development", progress: 80 },
     { name: "Back-End Development", progress: 60 },
     { name: "Full-Stack Development", progress: 65 },
-    { name: "Database and Data Management", progress: 75 },
+    { name: "Database and Data Management", progress: 55 },
     { name: "DevOps and Deployment", progress: 50 },
-    { name: "Software Development Practices and Tools", progress: 85 },
-    { name: "Additional Skills", progress: 90 },
+    { name: "Software Development Practices and Tools", progress: 70 },
+    { name: "Communication and Teamwork", progress: 90 },
   ];
 
   return (
     <div className="card skills-card">
       <div className="card-body">
-        <h2 class="main-text text-center">Skills and Certifications</h2>
+        <h2 class="main-text text-center">Skills</h2>
         {skills.map((skill) => (
           <div
             className="progress mb-3"
@@ -40,4 +40,4 @@ const SkillsAndCerts = () => {
   );
 };
 
-export default SkillsAndCerts;
+export default Skills;

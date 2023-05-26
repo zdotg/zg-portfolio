@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import SkillsAndCerts from "./components/SkillsAndCerts";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Intro />
       <About />
       <Experience />
-      <SkillsAndCerts />
+      <Skills />
     </div>
   );
 };
