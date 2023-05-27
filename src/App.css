@@ -41,31 +41,6 @@ body {
 
 /* misc */
 
-/* .custom-shape {
-  position: absolute;
-  top: 5%;
-  left: 1050px;
-  width: 275px;
-  height: 175px;
-  background-color: #f4f4f4;
-  transform: rotate(-30deg);
-  border-radius: 45% 95% 90% 60%;
-  z-index: 1;
-  background-image: linear-gradient(75deg, rgba(182, 34, 195, 1) 0%, rgba(253, 163, 45, 1) 100%);
-}
-
-.custom-shape-b {
-  position: absolute;
-  top: 150px;
-  left: 135px;
-  width: 350px;
-  height: 185px;
-  background-color: #f4f4f4;
-  transform: rotate(-30deg);
-  border-radius: 305% 4% 90% 100%;
-  z-index: 1;
-  background-image: linear-gradient(75deg, rgba(182, 34, 195, 1) 0%, rgba(253, 163, 45, 1) 100%);
-} */
 
 .custom-shape {
   position: relative;
