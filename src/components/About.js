@@ -12,7 +12,7 @@ const About = () => {
   };
 
   return (
-    <div class="card mx-auto about-card pt-5 pb-5">
+    <div class="card mx-auto about-card pt-5 pb-5" id="About">
       <div class="card-body d-flex align-items-center justify-content-center">
         <img
           src={AboutMemoji}

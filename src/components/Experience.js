@@ -5,11 +5,16 @@ import "../App.css";
 const Experience = () => {
   return (
     <div class="card mx-auto pt-5 pb-5 experience-card">
-      <div class="card-body d-flex align-items-center">
-        <div class="col">
+      <div class="card-body d-flex align-items-center ">
+        <div class="custom-shape-muted "></div>
+        <div class="custom-shape-c"></div>
+        <div class="col" style={{ zIndex: "2" }}>
           <div class="pb-2">
             <div class="d-flex justify-content-between">
-              <div class="col-lg-6 d-flex flex-column align-items-center">
+              <div
+                class="col-lg-6 d-flex flex-column align-items-center"
+                style={{ borderRight: "1px solid white" }}
+              >
                 <h4 class="main-text">
                   <span class="text-gradient">Academic</span> Qualifications
                 </h4>

@@ -14,7 +14,7 @@ const Skills = () => {
   ];
 
   return (
-    <div class="card skills-card">
+    <div class="card skills-card" id="Skills">
       <div class="card-body mx-auto" style={{ width: "75%" }}>
         <h2 class="main-text text-center">Skills</h2>
         {skills.map((skill) => (
@@ -57,7 +57,7 @@ const Skills = () => {
               <li>Cross-Platform Design</li>
               <li>Communication</li>
               <li>Teamwork</li>
-              <li>Passion to learn</li>
+              <li>Passion to Learn</li>
               <li>Planning/Coordination with teams</li>
               <li>Wire-framing</li>
             </ul>
