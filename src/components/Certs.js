@@ -1,90 +1,151 @@
 import React from "react";
 import "../styles/certs.css";
 import "../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Bootstrap from "../images/certificates/Bootstrap.png";
 import DSA from "../images/certificates/Data_StructuresandAlgos.png";
+import ReactNative from "../images/certificates/React_Native.png";
 import FrontEnd from "../images/certificates/Front_End_WebandMobile.png";
 import FullStack from "../images/certificates/Full_Stack_WebandMobile.png";
 import HCJ from "../images/certificates/HTML_CSS_JS.png";
 import ReactCert from "../images/certificates/React.png";
 import SQLDevops from "../images/certificates/Sql_Devops_Python.png";
+import Modern from "../images/certificates/ModernSWE.png";
+import SQLData from "../images/certificates/Sql_Data_MOdeling.png";
 
 const Certs = () => {
   return (
     <div class="card certs-card">
       <div class="card-body">
         <h2 class="main-text text-center">Certificates</h2>
-        <div id="certsCarousel" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item d-flex justify-content-center active">
+        <div class="row text-center pb-5">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
               <img
-                src={Bootstrap}
-                class="d-block w-25"
-                alt="Bootstrap Certificate"
-              />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
-                src={DSA}
-                class="d-block w-25"
-                alt="Data Structures and Algorithms Certificate"
-              />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
-                src={FrontEnd}
-                class="d-block w-25"
-                alt="Front End Mobile and Web Dev Certificate"
-              />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
-                src={FullStack}
-                class="d-block w-25"
-                alt="Full Stack Mobile and Web Dev Certificate"
-              />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
+                class="enlarge"
                 src={HCJ}
-                class="d-block w-25"
-                alt="HTML, CSS, Javascript Certificate"
+                width="250"
+                height="300"
+                alt="Web Dev"
               />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
-                src={ReactCert}
-                class="d-block w-25"
-                alt="React Certificate"
-              />
-            </div>
-            <div class="carousel-item d-flex justify-content-center">
-              <img
-                src={SQLDevops}
-                class="d-block w-25"
-                alt="SQL and Devops Certificate"
-              />
+              <p class="main-text">Web Dev Fundamentals Bootcamp</p>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#certsCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#certsCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={DSA}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">
+                Python Fundamentals Data Structures, and Algorithms
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={SQLData}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">SQL and Python</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={Modern}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">Modern Software Engineering with DevOps</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={SQLDevops}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">Backend Python, SQL, and Devops Bootcamp</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={Bootstrap}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">Front-End Web UI Framework: Bootstrap</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={ReactCert}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">Front End JavaScript Library: React</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={ReactNative}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">
+                Multiplatform Mobile App Development with React Native
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={FrontEnd}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">
+                Front End Web and Mobile Development Bootcamp
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div>
+              <img
+                class="enlarge"
+                src={FullStack}
+                width="250"
+                height="300"
+                alt="Web Dev"
+              />
+              <p class="main-text">
+                Server-side Development with NodeJS Express and MongoDB
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

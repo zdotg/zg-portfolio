@@ -5,3 +5,12 @@
     border: none;
     background-color: #8e6e92;
 }
+
+.enlarge {
+    width: 75%;
+    height: 75%;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 2s;
+    transition-property: width, height;
+    transition-duration: 2s;
+}
