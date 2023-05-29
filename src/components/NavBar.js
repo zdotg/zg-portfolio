@@ -4,10 +4,10 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-sm px-5 nav-styles ">
+    <nav class="navbar navbar-expand-sm px-5 nav-styles nav-text">
       <div class="container-sm">
         <a href="#" class="navbar-brand ">
-          <div class="display-6 navbar-text main-text">
+          <div class="display-6 main-text">
             Zach <span class="text-gradient">Gallman</span>;
           </div>
         </a>
@@ -25,17 +25,17 @@ const NavBar = () => {
         <div class="collapse navbar-collapse" id="NavBar">
           <ul class="navbar-nav mx-auto justify-content-center pt-2">
             <li class="nav-item active">
-              <a class="nav-link main-text" href="#About">
+              <a class="nav-link nav-text" href="#About">
                 About Me
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link main-text" href="#Skills">
+              <a class="nav-link nav-text" href="#Skills">
                 Skills & Certifications
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link main-text" href="#Portfolio">
+              <a class="nav-link nav-text" href="#Portfolio">
                 Portfolio
               </a>
             </li>

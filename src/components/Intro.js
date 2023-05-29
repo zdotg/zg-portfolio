@@ -20,7 +20,17 @@ const Intro = () => {
               dedication to continuous learning!
             </small>
           </div>
-          <button class="btn  button-gradient main-text">View My Resume</button>
+          <div class="row ">
+            <div class="col-lg-12 center">
+              <a
+                href="https://docs.google.com/document/d/1SCSk4tESLYwq_Ru8s5Hs9RYuQtkVeKgn_vGYJJchrAc/edit?usp=sharing"
+                class="btn  button-gradient main-text "
+                role="button"
+              >
+                View My Resume
+              </a>
+            </div>
+          </div>
         </div>
         <div class="custom-shape"></div>
         <img

@@ -17,6 +17,7 @@ const Skills = () => {
     <div class="card skills-card" id="Skills">
       <div class="card-body mx-auto" style={{ width: "75%" }}>
         <h2 class="main-text text-center">Skills</h2>
+
         {skills.map((skill) => (
           <div
             class="progress mb-3"
@@ -35,8 +36,8 @@ const Skills = () => {
             </div>
           </div>
         ))}
-        <div class="row align-middle text-left mx-5 main-text">
-          <div class="col-lg-3">
+        <div class="row align-middle text-left mx-2 main-text">
+          <div class="col-lg-4">
             <ul class="mb-3">
               <li>HTML</li>
               <li>CSS</li>
@@ -47,9 +48,11 @@ const Skills = () => {
               <li>jQuery</li>
               <li>SQL/PostgreSQL Databases</li>
               <li>Bootstrap</li>
+              <li>Cloud Deployments (AWS, GCS, Azure)</li>
+              <li>Software Development Lifecycle </li>
             </ul>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <ul class="mb-3">
               <li>SCSS</li>
               <li>Responsive Web Design</li>
@@ -60,34 +63,39 @@ const Skills = () => {
               <li>Passion to Learn</li>
               <li>Planning/Coordination with teams</li>
               <li>Wire-framing</li>
+              <li>React Native</li>
+              <li>Android Studio/Emulator</li>
+              <li>React.Js</li>
             </ul>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <ul class="mb-3">
-              <li>React.Js</li>
               <li>Redux/Context</li>
               <li>Dependencies</li>
-              <li>React Native</li>
-              <li>Android Studio/Emulators</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>MongoDB/Atlas</li>
-              <li>Docker and Kubernetes</li>
               <li>Version Control</li>
-            </ul>
-          </div>
-          <div class="col-lg-3">
-            <ul class="mb-3">
               <li>NoSQL Databases</li>
               <li>DevOps</li>
+              <li>MongoDB/Atlas</li>
+              <li>Docker and Kubernetes</li>
               <li>Flask/Insomnia</li>
               <li>CI/CD Pipelines</li>
               <li>Agile methods</li>
               <li>Network Infrastructure Administration</li>
-              <li>Cloud Deployments (AWS, GCS, Azure)</li>
-              <li>Software Development Lifecycle </li>
+              <li>Node.js</li>
+              <li>Express.js</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div class="row text-center my-auto pb-5">
+        <div class="col-lg-12 center">
+          <a
+            href="https://github.com/zdotg"
+            class="btn  button-gradient main-text "
+            role="button"
+          >
+            My GitHub
+          </a>
         </div>
       </div>
     </div>

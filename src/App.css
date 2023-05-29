@@ -35,9 +35,11 @@ body {
 
 /* text styles */
 
-.main-text {
+.main-text{
   color: #fcfcf7;
 }
+
+
 
 /* misc */
 
@@ -168,3 +170,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* enlarge */
+.enlarge {
+  scale: none;
+}
+
+.enlarge:hover {
+  scale: 1.5;
+  transition: all 1s ease-out;
+}
