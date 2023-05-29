@@ -5,7 +5,7 @@ import "../styles/projects.css";
 
 const Projects = () => {
   return (
-    <section class="project-section row">
+    <section class="project-section row py-5">
       <h2 class="main-text text-center">Projects</h2>
       <div class="card project-card col-lg-6">
         <img src={portfolio} class="card-image-top" alt="Portfolio Snippet" />

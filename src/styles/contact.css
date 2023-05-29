@@ -1,0 +1,15 @@
+.contact-section {
+    border-radius: 0;
+    border: none;
+    background-color: #8e6e92;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.form-text {
+    color: #8d5b94;
+}
+
+.submit-button {
+    color: white;
+}
