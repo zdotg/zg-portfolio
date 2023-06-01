@@ -4,23 +4,23 @@ import "../App.css";
 
 const Skills = () => {
   const skills = [
-    { name: "Front-End Development 80%", progress: 80 },
-    { name: "Back-End Development 60%", progress: 60 },
-    { name: "Full-Stack Development 65%", progress: 65 },
-    { name: "Database and Data Management 55%", progress: 55 },
-    { name: "DevOps and Deployment 50%", progress: 50 },
-    { name: "Software Development Practices and Tools 70%", progress: 70 },
-    { name: "Communication and Teamwork 90%", progress: 90 },
+    { name: "Front-End Development", progress: 80 },
+    { name: "Back-End Development", progress: 60 },
+    { name: "Full-Stack Development", progress: 65 },
+    { name: "Database and Data Management", progress: 55 },
+    { name: "DevOps and Deployment", progress: 50 },
+    { name: "Software Development Practices and Tools", progress: 70 },
+    { name: "Communication and Teamwork", progress: 90 },
   ];
 
   return (
-    <div class="card skills-card" id="Skills">
-      <div class="card-body mx-auto" style={{ width: "75%" }}>
-        <h2 class="main-text text-center">Skills</h2>
+    <div className="card skills-card" id="Skills">
+      <div className="card-body mx-auto skills-border" style={{ width: "75%" }}>
+        <h2 className="main-text text-center">Skills</h2>
 
         {skills.map((skill) => (
           <div
-            class="progress mb-3"
+            className="progress mb-3"
             key={skill.name}
             role="progressbar"
             aria-label={skill.name}
@@ -29,16 +29,17 @@ const Skills = () => {
             aria-valuemax="100"
           >
             <div
-              class="progress-bar bg-warning text-dark text-start px-2"
+              className="progress-bar bg-warning text-dark text-start px-2"
               style={{ width: `${skill.progress}%` }}
             >
               {skill.name}
             </div>
           </div>
         ))}
-        <div class="row align-middle text-left mx-2 main-text">
-          <div class="col-lg-4">
-            <ul class="mb-3">
+
+        <div className="row align-items-center text-left mx-2 main-text">
+          <div className="col-lg-4 mb-3">
+            <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -49,11 +50,11 @@ const Skills = () => {
               <li>SQL/PostgreSQL Databases</li>
               <li>Bootstrap</li>
               <li>Cloud Deployments (AWS, GCS, Azure)</li>
-              <li>Software Development Lifecycle </li>
+              <li>Software Development Lifecycle</li>
             </ul>
           </div>
-          <div class="col-lg-4">
-            <ul class="mb-3">
+          <div className="col-lg-4 mb-3">
+            <ul>
               <li>SCSS</li>
               <li>Responsive Web Design</li>
               <li>Mobile-First Design Principles</li>
@@ -68,8 +69,8 @@ const Skills = () => {
               <li>React.Js</li>
             </ul>
           </div>
-          <div class="col-lg-4">
-            <ul class="mb-3">
+          <div className="col-lg-4 mb-3">
+            <ul>
               <li>Redux/Context</li>
               <li>Dependencies</li>
               <li>Version Control</li>
@@ -86,16 +87,17 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div class="row text-center my-auto pb-5">
-        <div class="col-lg-12 center">
-          <a
-            href="https://github.com/zdotg"
-            class="btn  button-gradient main-text "
-            role="button"
-          >
-            My GitHub
-          </a>
+
+        <div className="row text-center my-auto pb-5">
+          <div className="col-lg-12 center">
+            <a
+              href="https://github.com/zdotg"
+              className="btn button-gradient main-text"
+              role="button"
+            >
+              My GitHub
+            </a>
+          </div>
         </div>
       </div>
     </div>

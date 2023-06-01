@@ -14,7 +14,7 @@ import SQLData from "../images/certificates/Sql_Data_MOdeling.png";
 
 const Certs = () => {
   return (
-    <div class="card certs-card">
+    <div class="card certs-card certs-border">
       <div class="card-body">
         <h2 class="main-text text-center">Certificates</h2>
         <div class="row text-center pb-5">

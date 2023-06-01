@@ -14,3 +14,7 @@
     transition-property: width, height;
     transition-duration: 2s;
 }
+
+.certs-border {
+    border-bottom: 1px solid white;
+}

@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Certs from "./components/Certs";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Certs />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -4,11 +4,16 @@
     background-color: #8d5b94;
     padding-left: 15rem;
     padding-right: 15rem;
+    width: 100%;
 }
 
 
 .project-card {
     width: 18rem;
     background-color: #8d5b94;
+}
+
+.project-border {
+    border-bottom: 1px solid white;
 }
 

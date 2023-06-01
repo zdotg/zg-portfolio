@@ -10,3 +10,7 @@
     width: 45px;
     border-bottom: 1px solid #fcfcf7;
 }
+
+.border-style-two {
+    border: 1px solid white;
+}

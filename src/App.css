@@ -3,6 +3,10 @@
   max-width: 100%;
 }
 
+/* font awesome */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
 body {
   font-family: 'Oxygen', sans-serif;
 }
