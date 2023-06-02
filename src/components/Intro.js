@@ -33,7 +33,7 @@ const Intro = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <img
               src={emoji}
               alt="My memoji"
