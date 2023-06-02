@@ -4,12 +4,12 @@ import "../App.css";
 
 const Experience = () => {
   return (
-    <div className="card mx-auto pt-5 pb-5 experience-card border-style-two">
+    <div className="card mx-auto pt-5 pb-5 experience-card ">
       <div className="card-body d-flex align-items-center">
         <div className="col" style={{ zIndex: "2" }}>
           <div className="pb-2">
             <div className="row">
-              <div className="col-lg-6 mb-4">
+              <div className="col mb-4">
                 <h4 className="main-text text-center">
                   <span className="text-gradient border-style-one">
                     Academic
@@ -17,7 +17,10 @@ const Experience = () => {
                   Qualifications
                 </h4>
                 <ul>
-                  <li className="pt-2 main-text list-style-none">
+                  <li
+                    className="pt-2 main-text list-style-none"
+                    style={{ fontSize: "0.85rem" }}
+                  >
                     NuCamp's Full Stack Mobile and Web Development Bootcamp
                   </li>
                   <small className="main-text" style={{ fontSize: ".55rem" }}>
@@ -31,7 +34,7 @@ const Experience = () => {
                   </small>
                 </ul>
               </div>
-              <div className="col-lg-6 ">
+              <div className="col">
                 <h4 className="main-text text-center">
                   <span className="text-gradient border-style-one">Job </span>
                   Experience

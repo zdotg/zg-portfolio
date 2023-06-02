@@ -1,10 +1,11 @@
 
 .about-card {
-    padding: 10rem;
+    padding: 0;
     border-radius: 0;
     border: none;
     background-color: #8e6e92;
 }
+
 
 .img-border-about {
     border-top: 1px solid #fcfcf785;

@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="footer-section text-center">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 text-center ">
+          <div className="col-6 text-center">
             <h5 className="main-text">Socials</h5>
-            <div className="social-icons ">
+            <div className="social-icons">
               <a
                 className="social-icon"
                 href="https://www.instagram.com/zach.g33/"
@@ -26,14 +26,14 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-6 text-center ">
-            <div className="contact-info ">
+          <div className="col-6 text-center">
+            <div className="contact-info">
               <a
                 role="button"
                 className="contact-link main-text"
                 href="tel:+13347181224"
               >
-                <i className="fas fa-phone "></i> 1-334-718-1224
+                <i className="fas fa-phone"></i> 1-334-718-1224
               </a>
               <br />
               <a

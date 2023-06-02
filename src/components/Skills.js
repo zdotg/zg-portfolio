@@ -15,7 +15,10 @@ const Skills = () => {
 
   return (
     <div className="card skills-card" id="Skills">
-      <div className="card-body mx-auto skills-border" style={{ width: "75%" }}>
+      <div
+        className="card-body mx-auto skills-border"
+        style={{ maxWidth: "75%" }}
+      >
         <h2 className="main-text text-center">Skills</h2>
 
         {skills.map((skill) => (
@@ -38,7 +41,7 @@ const Skills = () => {
         ))}
 
         <div className="row align-items-center text-left mx-2 main-text">
-          <div className="col-lg-4 mb-3">
+          <div className="col-12 col-md-4 mb-3">
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -53,7 +56,7 @@ const Skills = () => {
               <li>Software Development Lifecycle</li>
             </ul>
           </div>
-          <div className="col-lg-4 mb-3">
+          <div className="col-12 col-md-4 mb-3">
             <ul>
               <li>SCSS</li>
               <li>Responsive Web Design</li>
@@ -69,7 +72,7 @@ const Skills = () => {
               <li>React.Js</li>
             </ul>
           </div>
-          <div className="col-lg-4 mb-3">
+          <div className="col-12 col-md-4 mb-3">
             <ul>
               <li>Redux/Context</li>
               <li>Dependencies</li>

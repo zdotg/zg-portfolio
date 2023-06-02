@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zg-portfolio/static/css/main.a07ab7ef.css",
-    "main.js": "/zg-portfolio/static/js/main.a1802b64.js",
+    "main.css": "/zg-portfolio/static/css/main.c8ced907.css",
+    "main.js": "/zg-portfolio/static/js/main.10844de7.js",
     "static/js/787.bf717ff0.chunk.js": "/zg-portfolio/static/js/787.bf717ff0.chunk.js",
     "static/media/little-wine-shop.png": "/zg-portfolio/static/media/little-wine-shop.5461851ab8332ab9c210.png",
     "static/media/portfolio.png": "/zg-portfolio/static/media/portfolio.46ddcb987e39dcb2851f.png",
@@ -27,12 +27,12 @@
     "static/media/fa-v4compatibility.ttf": "/zg-portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/zg-portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/zg-portfolio/index.html",
-    "main.a07ab7ef.css.map": "/zg-portfolio/static/css/main.a07ab7ef.css.map",
-    "main.a1802b64.js.map": "/zg-portfolio/static/js/main.a1802b64.js.map",
+    "main.c8ced907.css.map": "/zg-portfolio/static/css/main.c8ced907.css.map",
+    "main.10844de7.js.map": "/zg-portfolio/static/js/main.10844de7.js.map",
     "787.bf717ff0.chunk.js.map": "/zg-portfolio/static/js/787.bf717ff0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a07ab7ef.css",
-    "static/js/main.a1802b64.js"
+    "static/css/main.c8ced907.css",
+    "static/js/main.10844de7.js"
   ]
 }

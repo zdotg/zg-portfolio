@@ -32,7 +32,7 @@ const Contact = () => {
                 Name
               </label>
               <input
-                type="name"
+                type="text"
                 className="form-control"
                 id="name"
                 required
@@ -48,7 +48,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 placeholder="Message"
-                style={{ height: "10rem" }}
+                style={{ minHeight: "10rem" }}
               ></textarea>
             </div>
             <button type="submit" className="btn button-gradient submit-button">

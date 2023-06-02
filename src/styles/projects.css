@@ -2,18 +2,14 @@
     border-radius: 0;
     border: none;
     background-color: #8d5b94;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    width: 100%;
+    padding: 0;
 }
 
 
 .project-card {
-    width: 18rem;
+    max-width: 15rem;
     background-color: #8d5b94;
+    padding: 0;
 }
 
-.project-border {
-    border-bottom: 1px solid white;
-}
 

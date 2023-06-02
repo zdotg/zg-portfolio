@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="card mx-auto intro-card pb-5 pt-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-8">
+          <div className="col-12 col-sm-7">
             <div className="pb-2">
               <small className="main-text">Welcome to my world</small>
               <h2 className="main-text">Hi, I'm Zach</h2>
@@ -22,7 +22,7 @@ const Intro = () => {
               </small>
             </div>
             <div className="row">
-              <div className="col-lg-12 center">
+              <div className="col-lg-12 col-sm-5 center">
                 <a
                   href="https://docs.google.com/document/d/1SCSk4tESLYwq_Ru8s5Hs9RYuQtkVeKgn_vGYJJchrAc/edit?usp=sharing"
                   className="btn button-gradient main-text"
@@ -37,10 +37,8 @@ const Intro = () => {
             <img
               src={emoji}
               alt="My memoji"
-              width="250px"
-              height="250px"
-              className="me-4 img-border-intro"
-              style={{ zIndex: 2 }}
+              className=" img-border-intro"
+              style={{ zIndex: 2, margin: 0 }}
             />
           </div>
         </div>

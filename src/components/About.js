@@ -14,17 +14,15 @@ const About = () => {
     <div className="card mx-auto about-card pt-5 pb-5" id="About">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-12 col-sm-5">
             <img
               src={AboutMemoji}
               alt="My memoji"
-              width="250px"
-              height="250px"
-              className="me-4 img-border-about"
+              className=" img-border-about"
               style={{ zIndex: 2 }}
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-12 col-sm-7">
             <div className="pb-2">
               <h2 className="main-text">
                 About <span className="text-gradient">Me</span>

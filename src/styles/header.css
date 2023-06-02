@@ -1,5 +1,7 @@
 .nav-styles {
    background-color: #8e5596;
+   padding: 0; 
+   margin: 0;
 }
 
 .nav-text {

@@ -1,11 +1,10 @@
 import React from "react";
 import "../styles/header.css";
 import "../App.css";
-import "bootstrap/dist/js/bootstrap.bundle";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-sm px-5 nav-styles nav-text">
+    <nav className="navbar navbar-expand-md nav-styles nav-text">
       <div className="container-sm ">
         <a href="#" className="navbar-brand ">
           <div className="display-6 main-text">

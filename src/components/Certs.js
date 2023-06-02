@@ -14,134 +14,78 @@ import SQLData from "../images/certificates/Sql_Data_MOdeling.png";
 
 const Certs = () => {
   return (
-    <div class="card certs-card certs-border">
-      <div class="card-body">
-        <h2 class="main-text text-center">Certificates</h2>
-        <div class="row text-center pb-5">
-          <div class="col-xs-12 col-sm-6 col-md-4">
+    <div className="card certs-card ">
+      <div className="card-body">
+        <h2 className="main-text text-center">Certificates</h2>
+        <div className="row text-center pb-5">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={HCJ}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">Web Dev Fundamentals Bootcamp</p>
+              <img className="enlarge" src={HCJ} alt="Web Dev" />
+              <p className="main-text">Web Dev Fundamentals Bootcamp</p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={DSA}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">
+              <img className="enlarge" src={DSA} alt="Web Dev" />
+              <p className="main-text">
                 Python Fundamentals Data Structures, and Algorithms
               </p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={SQLData}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">SQL and Python</p>
+              <img className="enlarge" src={SQLData} alt="Web Dev" />
+              <p className="main-text">SQL and Python</p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={Modern}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">Modern Software Engineering with DevOps</p>
+              <img className="enlarge" src={Modern} alt="Web Dev" />
+              <p className="main-text">
+                Modern Software Engineering with DevOps
+              </p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={SQLDevops}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">Backend Python, SQL, and Devops Bootcamp</p>
+              <img className="enlarge" src={SQLDevops} alt="Web Dev" />
+              <p className="main-text">
+                Backend Python, SQL, and Devops Bootcamp
+              </p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={Bootstrap}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">Front-End Web UI Framework: Bootstrap</p>
+              <img className="enlarge" src={Bootstrap} alt="Web Dev" />
+              <p className="main-text">Front-End Web UI Framework: Bootstrap</p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={ReactCert}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">Front End JavaScript Library: React</p>
+              <img className="enlarge" src={ReactCert} alt="Web Dev" />
+              <p className="main-text">Front End JavaScript Library: React</p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={ReactNative}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">
+              <img className="enlarge" src={ReactNative} alt="Web Dev" />
+              <p className="main-text">
                 Multiplatform Mobile App Development with React Native
               </p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={FrontEnd}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">
+              <img className="enlarge" src={FrontEnd} alt="Web Dev" />
+              <p className="main-text">
                 Front End Web and Mobile Development Bootcamp
               </p>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
+          <div className="col-12 col-md-6 col-lg-4">
             <div>
-              <img
-                class="enlarge"
-                src={FullStack}
-                width="250"
-                height="300"
-                alt="Web Dev"
-              />
-              <p class="main-text">
+              <img className="enlarge" src={FullStack} alt="Web Dev" />
+              <p className="main-text">
                 Server-side Development with NodeJS Express and MongoDB
               </p>
             </div>
