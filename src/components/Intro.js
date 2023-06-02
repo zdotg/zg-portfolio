@@ -8,7 +8,7 @@ const Intro = () => {
     <div className="card mx-auto intro-card pb-5 pt-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7">
+          <div className="col-lg-8">
             <div className="pb-2">
               <small className="main-text">Welcome to my world</small>
               <h2 className="main-text">Hi, I'm Zach</h2>
@@ -33,7 +33,7 @@ const Intro = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <img
               src={emoji}
               alt="My memoji"
