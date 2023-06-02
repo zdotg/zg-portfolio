@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d397936.css",
+    "main.js": "/static/js/main.406e8163.js",
+    "static/js/787.bf717ff0.chunk.js": "/static/js/787.bf717ff0.chunk.js",
+    "static/media/little-wine-shop.png": "/static/media/little-wine-shop.5461851ab8332ab9c210.png",
+    "static/media/portfolio.png": "/static/media/portfolio.46ddcb987e39dcb2851f.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/Full_Stack_WebandMobile.png": "/static/media/Full_Stack_WebandMobile.d5355e418701e41deffa.png",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/Front_End_WebandMobile.png": "/static/media/Front_End_WebandMobile.3967378048a2912097ca.png",
+    "static/media/Sql_Devops_Python.png": "/static/media/Sql_Devops_Python.c42bd008862caf696be7.png",
+    "static/media/photography.png": "/static/media/photography.41cf6ff9318912397c0c.png",
+    "static/media/HTML_CSS_JS.png": "/static/media/HTML_CSS_JS.36e0a78463944410e1bf.png",
+    "static/media/ModernSWE.png": "/static/media/ModernSWE.c6dc489d97fb71d19ed4.png",
+    "static/media/Data_StructuresandAlgos.png": "/static/media/Data_StructuresandAlgos.b85ee2fdeda0aae20626.png",
+    "static/media/Sql_Data_MOdeling.png": "/static/media/Sql_Data_MOdeling.e9c11c8b019caf108439.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.e2dd0ce1cd61303526d3.png",
+    "static/media/React_Native.png": "/static/media/React_Native.22d7a058a4999cb2bfd1.png",
+    "static/media/React.png": "/static/media/React.cfcfcaed9393ca8b1cdd.png",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/emoji-sticker.png": "/static/media/emoji-sticker.970a0a5296e296bd1d6f.png",
+    "static/media/AboutMemoji.png": "/static/media/AboutMemoji.f32a3765f313879e9198.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/index.html",
+    "main.6d397936.css.map": "/static/css/main.6d397936.css.map",
+    "main.406e8163.js.map": "/static/js/main.406e8163.js.map",
+    "787.bf717ff0.chunk.js.map": "/static/js/787.bf717ff0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d397936.css",
+    "static/js/main.406e8163.js"
+  ]
+}
