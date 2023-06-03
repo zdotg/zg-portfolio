@@ -4,8 +4,8 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md nav-styles nav-text">
-      <div className="container-sm ">
+    <nav className="navbar navbar-expand-lg nav-styles nav-text">
+      <div className="container-fluid ">
         <a href="#" className="navbar-brand ">
           <div className="display-6 main-text">
             Zach <span className="text-gradient">Gallman</span>;
@@ -24,7 +24,7 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="NavBar">
           <ul className="navbar-nav mx-auto justify-content-center pt-2">
-            <li className="nav-item active">
+            <li className="nav-item ">
               <a className="nav-link nav-text" href="#About">
                 About Me
               </a>
