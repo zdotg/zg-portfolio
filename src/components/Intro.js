@@ -38,7 +38,7 @@ const Intro = () => {
               src={emoji}
               alt="My memoji"
               className=" img-border-intro"
-              style={{ zIndex: 2, margin: 0 }}
+              style={{ zIndex: 2, maxWidth: "100%" }}
             />
           </div>
         </div>

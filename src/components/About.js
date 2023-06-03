@@ -19,7 +19,7 @@ const About = () => {
               src={AboutMemoji}
               alt="My memoji"
               className=" img-border-about"
-              style={{ zIndex: 2 }}
+              style={{ zIndex: 2, maxWidth: "100%" }}
             />
           </div>
           <div className="col-12 col-sm-7">
